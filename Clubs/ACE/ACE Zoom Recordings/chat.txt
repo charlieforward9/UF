@@ -1,0 +1,25 @@
+19:25:17	 From Hao : machine learning
+19:25:24	 From Matthew Flippen : Neural network
+19:25:29	 From Jake Richard : Google internship
+19:25:30	 From Matthew Flippen : Gradient descent
+19:25:36	 From Charles Richardson : APIs are better than Pies
+19:25:47	 From Jason Guan : slack overflow
+19:25:51	 From Matthew Flippen : Embedded systems
+19:25:57	 From Charles Richardson : www.stackoverflow.com for test answers
+19:25:59	 From Cameron Keene : Linked Lists
+19:26:01	 From Matthew Flippen : Agile development
+19:26:09	 From Thomas Pena Reina : scrum
+19:26:10	 From Cameron Keene : Github for project solutions
+19:26:11	 From Matthew Flippen : Big O
+19:26:19	 From Thomas Pena Reina : time complexity
+19:26:20	 From Matthew Flippen : Backend
+19:26:23	 From Matthew Flippen : Frontend
+19:26:24	 From Jake Richard : Bogo sort
+19:26:25	 From Matthew Flippen : Fullstack
+19:26:25	 From Charles Richardson : Whos butt is sore from coding all day?
+19:26:25	 From Cameron Keene : P != NP
+19:26:26	 From Thomas Pena Reina : frontend
+19:26:32	 From Cameron Keene : ML
+19:26:33	 From Thomas Pena Reina : client server
+19:26:34	 From Matthew Flippen : Space complexity
+19:26:37	 From Matthew Flippen : Quick Sort
