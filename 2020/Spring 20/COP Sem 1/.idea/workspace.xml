@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ea39fa3-e4a3-4a76-a725-b6ac8dd29a86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/gatorraider/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatorraider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatorraider/System/game/controllers/AttackerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/System/game/controllers/AttackerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatorraider/System/game/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/System/game/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatorraider/System/game/system/_Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/System/game/system/_Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatorraider/src/edu/ufl/cise/cs1/controllers/StudentAttackerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/src/edu/ufl/cise/cs1/controllers/StudentAttackerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatorraider/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatorraider/src/edu/ufl/cise/cs1/controllers/StudentDefenderController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="203" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gatorraider" />
+  </component>
+  <component name="ProjectId" id="1XOJKpcDl4jhh3fEf3zyQGDLHbw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Analyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Analyzer" />
+      <module name="COP Sem 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cowsay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cowsay" />
+      <module name="COP Sem 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
+      <module name="COP Sem 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PakuriProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PakuriProgram" />
+      <module name="COP Sem 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RleProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RleProgram" />
+      <module name="COP Sem 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Analyzer" />
+        <item itemvalue="Application.PakuriProgram" />
+        <item itemvalue="Application.Cowsay" />
+        <item itemvalue="Application.RleProgram" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ea39fa3-e4a3-4a76-a725-b6ac8dd29a86" name="Default Changelist" comment="" />
+      <created>1580911146693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580911146693</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583568918670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1583568918670" />
+    <state x="440" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586876791828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="440" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1586876791828" />
+    <state x="114" y="233" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583383869614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="114" y="233" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1583383869614" />
+    <state x="0" y="212" key="#org.jetbrains.debugger.memory.view.InstancesWindow" timestamp="1586232268335">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="212" key="#org.jetbrains.debugger.memory.view.InstancesWindow/0.0.1440.900@0.0.1440.900" timestamp="1586232268335" />
+    <state x="279" y="210" key="#xdebugger.XInspectDialog" timestamp="1586219434641">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="279" y="210" key="#xdebugger.XInspectDialog/0.0.1440.900@0.0.1440.900" timestamp="1586219434641" />
+    <state width="446" height="466" key="DebuggerActiveHint" timestamp="1586229995479">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="446" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1586229995479" />
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom" timestamp="1588097593013">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="476" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586960375848" />
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1588097593013" />
+    <state width="1398" height="368" key="GridCell.Tab.0.center" timestamp="1588097593012">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="476" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586960375847" />
+    <state width="1398" height="368" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1588097593012" />
+    <state width="1398" height="368" key="GridCell.Tab.0.left" timestamp="1588097593012">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="476" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586960375846" />
+    <state width="1398" height="368" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1588097593012" />
+    <state width="1398" height="368" key="GridCell.Tab.0.right" timestamp="1588097593013">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="476" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586960375847" />
+    <state width="1398" height="368" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1588097593013" />
+    <state width="1398" height="368" key="GridCell.Tab.1.bottom" timestamp="1588097593014">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="419" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586960375814" />
+    <state width="1398" height="368" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1588097593014" />
+    <state width="1398" height="368" key="GridCell.Tab.1.center" timestamp="1588097593014">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="419" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586960375813" />
+    <state width="1398" height="368" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1588097593014" />
+    <state width="1398" height="368" key="GridCell.Tab.1.left" timestamp="1588097593013">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="419" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586960375813" />
+    <state width="1398" height="368" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1588097593013" />
+    <state width="1398" height="368" key="GridCell.Tab.1.right" timestamp="1588097593014">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="419" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586960375814" />
+    <state width="1398" height="368" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1588097593014" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1583680038195">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583680038195" />
+    <state x="397" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1591809038244">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586876759979" />
+    <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1591809038244" />
+    <state x="223" y="123" width="837" height="550" key="find.popup" timestamp="1583862763662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="223" y="123" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1583862763662" />
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup" timestamp="1586183825686">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="112" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586183825686" />
+    <state x="385" y="126" width="670" height="623" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1585505756738" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PakuriProgram.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/COP_Sem_1$ConnectFour.ic" NAME="ConnectFour Coverage Results" MODIFIED="1583568918705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/COP_Sem_1$NumericConversion.ic" NAME="NumericConversion Coverage Results" MODIFIED="1580916064733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
