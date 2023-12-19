@@ -1,3 +1,3 @@
-# My UF files
+This contains most of the projects and assignments I've worked on during my time as a Computer Science major & Innovation minor at the University of Florida. 
 
-This repository contains most of the projects and assignments I've worked on during my time as a Computer Science major at the University of Florida. Felt too precious to delete but too memory-consuming to keep on my computer.
+_Felt too precious to delete but too memory-consuming to keep on my computer._
