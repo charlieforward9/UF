@@ -1,0 +1,13 @@
+Prelab Questions
+
+1. Left shift is equivalent to MULTIPLYING by powers of 2
+2. Right shift is equivalent to DIVIDING by powers of 2
+3. Logical shift right will replace the leading bit with a zero, which can jeopardize the value of the number if 2s compliment is used. Arithmatic shift right preserves the sign when shifted. Therefore, arithmatic shift right must be used when shifting a negative number
+4. 256 possible operations
+
+
+Prelab Problem 1: ALU design
+In DigLog/Lab5
+
+Prelab Problem 2: G-CPU Datapath Design
+In Development with Quartus

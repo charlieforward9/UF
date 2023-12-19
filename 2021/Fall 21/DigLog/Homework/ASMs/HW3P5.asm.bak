@@ -1,0 +1,39 @@
+.data
+	myArray:	.word 1 1 0 1 0 1 0 1
+	
+.text
+
+.globl main
+
+main:
+	#Load 0 @ R7
+	li $a3, 0
+	#Load 8 @ R8
+	li $t0, 8
+
+loop: 
+	#Branch to exit if R7 = R8
+	beq $t0, $a3, Exit
+	#Compute address by shifting R7 left twice, store @ R9
+	sll $t1, $a3, 2
+	#Load the value @ address to R10
+	lw $t2, myArray($t1)
+	
+	#Jump w link to prodecure incC
+	jal incC
+	#Jump to loop
+	j loop
+	
+incC:
+	#Increment R4
+	addi $a3, $a3, 1
+	#Increment R11 with value
+	add $t3, $t3, $t2
+	
+	#Jump to return address
+	jr $ra
+	
+Exit:
+	beq $zero $zero Exit
+	
+	

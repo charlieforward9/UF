@@ -1,0 +1,118 @@
+.section .data
+
+input_x_prompt	:	.asciz	"Please enter x: "
+input_y_prompt	:	.asciz	"Please enter y: "
+input_spec	:	.asciz	"%d"
+result		:	.asciz	"x^y = %d\n"
+
+.section .text
+
+.global main
+
+main:
+	#Prompt x input
+	ldr x0, =input_x_prompt
+	bl printf
+
+	#Store x input
+	bl get_input
+	#Store x for recursive call
+	mov x19, x0
+	
+	#Prompt y input
+	ldr x0, =input_y_prompt
+	bl printf
+
+	#Store y input
+	bl get_input
+
+	#Move y to second arg position
+	mov x1, x0
+	#Move x to first arg pos
+	mov x0, x19
+	
+	mov x2, xzr
+	bl recurs
+	#here
+
+	#Check if the value x was stored properly
+	mov x1, x2
+	ldr x0, =result
+	bl printf
+	b exit
+
+
+
+#Inspired PA2 Workshop
+get_input:
+	#Allocate space on stack for 8 bytes
+	sub sp, sp, 8
+	#Store return address in the stack
+	str x30, [sp]
+	
+	#Put the input_spec in the first argument
+	ldr x0, =input_spec
+	#Allocate space on stack for 8 bytes
+	sub sp, sp, 8
+	#Point the stack to the first argument
+	mov x1, sp
+	#Make the scan
+	bl scanf
+
+	#Load signed word into register
+	ldrsw x0, [sp]
+	add sp, sp, 8
+
+	#Recover return address
+	ldr x30, [sp]
+	add sp, sp, 8
+	ret
+
+recurs: 
+#Base cases
+	#Check if x is zero
+	cbz x0, retzero
+	#Check if y is zero
+	cbz x1, retone
+	#Check if y is less than zero
+	sub x9, x1, xzr
+	#If x1 is less than zero
+	blt retzero
+	
+#Recursive call
+	#Allocate space on stack for the return address and 2 variables
+	sub sp, sp, 24
+	#Store the variables on the stack
+	str x0, [sp, 16]
+	str x1, [sp, 8]
+	str x30, [sp]
+	#Subtract 1 from y, for argument to recursive call
+	sub x1, x1, 1
+	#Make recursive call
+	bl recurs
+	#Restore stack
+	ldr x0, [sp, 16]
+	ldr x1, [sp, 8]
+	ldr x30, [sp]
+	#Deallocate the stack
+	add sp, sp, 24
+	#return from recurs is in x2 with multiply x0
+	mul x2, x2, x0
+	ret
+
+retzero: 
+	add x2, x2, xzr
+	ret
+
+retone:
+	add x2, x2, 1
+	ret
+
+
+
+# branch to this label on program completion
+exit:
+	mov x0, 0
+	mov x8, 93
+	svc 0
+	ret

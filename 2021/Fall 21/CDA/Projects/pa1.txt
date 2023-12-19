@@ -1,0 +1,115 @@
+.section .data
+
+input_prompt    :   .asciz  "Input a string: "
+input_spec      :   .asciz  "%[^\n]"
+length_spec     :   .asciz  "String length: %d\n"
+palindrome_spec :   .asciz  "String is a palindrome (T/F): %c\n"
+palindrome      :   .string "TF"
+
+#Reserve 8 bytes of space in memory, 7 for word, 1 for 0 terminator
+input_val       :   .space  8
+
+.section .text
+
+.global main
+
+# program execution begins here
+main:	
+	#Print prompt
+	#Load input_prompt in register
+	ldr x0, =input_prompt
+ 	#Branch w link to printf instruction to print the data to the console
+	bl printf
+
+    	#get input
+	#Give address of the space that is allocated
+	ldr x0, =input_spec
+	#Load input block in the register
+	ldr x1, =input_val
+	#Branch to scan instruction to get the data into a register	
+	bl scanf	
+
+	#Put the address of input into a register
+	ldr x19, =input_val
+	#Branch to the procedure of interest
+	bl get_length
+
+	#move the returned value to the 3rd argument position to fit output spec
+	mov x1, x0
+	#Load output value			
+	ldr x0, =length_spec
+	#print result from get_length	
+	bl printf
+
+	#Initialize lead index
+	mov x21, xzr
+	#Initialize trail index of string
+	sub x22, x20, 1
+	#Store palindrome result string
+	ldr x23, =palindrome
+	bl check_palindrome
+	
+	#Print the palindrome result
+	mov x1, x23
+	ldr x0, =palindrome_spec
+	bl printf
+
+	b exit	
+
+get_length:
+	#Initialize result
+	mov x20, xzr
+	
+	get_length_loop:
+		#Get byte of string
+		ldrb w10, [x19, x20]
+		#Check if the byte is zero. If its not, increment in more
+		cbnz x10, loop_again
+		
+	mov x0, x20
+	ret
+
+loop_again:
+	#Increment counter
+	add x20, x20, 1
+	#Loop through again
+	b get_length_loop	
+
+
+check_palindrome:
+	
+	#Retrieve the value from the first index in string
+	ldrb w11, [x19, x21]
+	#Retrieve the value from the last index in string
+	ldrb w12, [x19, x22]
+	#Check if the index values are equal or inverted
+	cmp x21, x22
+	bge is_pal
+	#Check if the values are the same 
+	cmp w11, w12
+	#Close the indexes
+	beq close_indexes
+	#Load the second byte (F) into the register to display
+	ldrb w23, [x23, 1]
+	ret
+		
+		
+close_indexes:
+	#Narrow the indexes and continue checking for palindrome
+	add x21 ,x21, 1
+	sub x22 ,x22, 1
+	b check_palindrome
+
+is_pal:
+
+	#Load the first byte (T) into the register to display	
+	ldrb w23, [x23]
+	ret
+
+	
+# branch to this label on program completion
+exit:
+    mov x0, 0
+    mov x8, 93
+    svc 0
+    ret

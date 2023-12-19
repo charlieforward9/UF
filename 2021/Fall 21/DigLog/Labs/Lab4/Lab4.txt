@@ -1,0 +1,2 @@
+An SR latch is sufficient to creating a functioning alarm. First, we consider S the door (0 closed, 1 open), R the reset (0 standby, 1 set Q = 0) and Q the alarm (0 standby, 1 active). Under this logic, once S = 1, the signal of Q is fixed at 1 unless R = 1. This means that the alarm cannot be shut off - once the door has been opened - unless the R signal is triggered.
+
