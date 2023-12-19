@@ -1,0 +1,16 @@
+id,utcDate,localDate,goalCategory,goalCurrentDuration,goalTargetDuration,goalPercentage,userOfGoal
+ed1f8a7e-ac76-488a-94b0-0ed66bfb0168,2022-10-05,2022-10-05,FUEL,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":1,""minutes"":0,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+3ac579db-b04b-43a8-ae4f-b1fd7b95bcfd,2022-10-05,2022-10-05,FUEL,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":1,""minutes"":0,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+fbd3d3c7-4bb5-4884-a969-64ebea6deee0,2022-10-05,2022-10-05,REST,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":8,""minutes"":0,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+1ec17497-1541-4cf6-9897-4893781270d8,2022-10-05,2022-10-05,FITNESS,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":1,""minutes"":null,""seconds"":null}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+ac752c55-a643-432a-b8ac-59493f4d2963,2022-10-05,2022-10-05,REST,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":8,""minutes"":0,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+2689f4e2-3eb1-4ed4-9f73-b4e4d230ecce,2022-09-10,2022-09-10,FITNESS,"{""hours"":0,""minutes"":25,""seconds"":0}","{""hours"":0,""minutes"":45,""seconds"":0}",55.55555555555556,f39a7c72-b41a-433f-8939-da0779c465dc
+1584bf14-e08c-42df-ae4b-955b471d20fb,2022-09-10,2022-09-10,REST,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":0,""minutes"":1,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+f4d23a48-ca8d-48ad-be5a-fd967dffb0d2,2022-09-10,2022-09-10,PRODUCTIVITY,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":2,""minutes"":0,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+0a2dd94a-0dd5-42e1-866d-5f212b823bdb,2022-09-10,2022-09-10,SOCIAL,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":2,""minutes"":27,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+b9543832-9407-4917-a80b-6f9fb198c169,2022-09-10,2022-09-10,REST,"{""hours"":3,""minutes"":30,""seconds"":40}","{""hours"":3,""minutes"":3,""seconds"":null}",115.1183970856102,f39a7c72-b41a-433f-8939-da0779c465dc
+e5ad8614-bbb3-4888-908d-00467a7b0b42,2022-09-10,2022-09-10,SOCIAL,"{""hours"":0,""minutes"":15,""seconds"":123}","{""hours"":0,""minutes"":45,""seconds"":0}",37.888888888888886,f39a7c72-b41a-433f-8939-da0779c465dc
+6047f142-0c06-4fbf-9f1c-44dcd41fd561,2022-09-10,2022-09-10,FUEL,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":2,""minutes"":29,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+832cba4f-cddb-4ca7-bec9-147572886882,2022-09-10,2022-09-10,PRODUCTIVITY,"{""hours"":1,""minutes"":15,""seconds"":1}","{""hours"":2,""minutes"":0,""seconds"":0}",62.51388888888889,f39a7c72-b41a-433f-8939-da0779c465dc
+7316ff6c-5469-4d58-88ee-753d63ec2c49,2022-09-10,2022-09-10,FITNESS,"{""hours"":0,""minutes"":0,""seconds"":0}","{""hours"":0,""minutes"":25,""seconds"":0}",0,f998c35f-9ba3-4546-a4b6-7bdc21c54073
+240ae30d-c382-482a-b2f5-348b38cf8c9a,2022-09-10,2022-09-10,FUEL,"{""hours"":0,""minutes"":45,""seconds"":42}","{""hours"":3,""minutes"":0,""seconds"":0}",25.38888888888889,f39a7c72-b41a-433f-8939-da0779c465dc
